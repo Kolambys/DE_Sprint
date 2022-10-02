@@ -1,0 +1,6 @@
+X1 = input()
+X2 = input()
+X1 = int(X1, 2)
+X2 = int(X2, 2)
+result = bin(X1 * X2)
+print(result[2:])
